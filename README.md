@@ -1,3 +1,6 @@
-# setuptools-hello-world
+# packaging-hello-world
 
-A package to test modern setuptools behavior.
+A repo to test the behavior of various Python packaging tools:
+
+* setuptools
+* pbr

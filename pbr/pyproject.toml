@@ -1,11 +1,11 @@
 [build-system]
-requires = ["setuptools>=79.0.0"]
-build-backend = "setuptools.build_meta"
+requires = ["pbr>=6.1.1"]
+build-backend = "pbr.build"
 
 [project]
-name = "setuptools-hello-world"
+name = "pbr-hello-world"
 version = "0.1.0"
-description = "A package to test modern setuptools with"
+description = "A package to test pbr"
 authors = [{name = "Stephen Finucane", email = "stephen@that.guru"}]
 readme = "README.md"
 requires-python = ">=3.10"
